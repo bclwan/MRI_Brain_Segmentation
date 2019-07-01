@@ -8,7 +8,9 @@ This project is to study the use of Convolutional Neural Network and in particul
 ## Datasets, Preprocessing and Sampling
 The Brain MRI images used are provided by the Medical Image Computing and Computer Assisted Intervention Society (MICCAI) in their 15th International Conference in 2012. The images are captured from 20 patients. 15 of them will be used for training while the rest serve for testing.
 
-The Brain MRI of each patient is a 3-dimensional voxel datasets. We will randomly sample a small voxel as input the the neural network. Since not all pixels in the datasets contain meaningful data and some useful sub-image may be placed near boundary of the dataset, zero-padding is added to the boundary of the dataset at first. Then the dataset will be normalized and equalized. During training and testing, the sampling processing will filter the zero-valued pixel so only voxel that contain meaningful data will be fed into the network.
+The Brain MRI of each patient is a 3-dimensional voxel datasets. A single image is 256x256 in size while the depth varies between patients. The datasets include labels which classify 135 different sections of the brain.
+
+We will randomly sample a small voxel as input the the neural network. Since not all pixels in the datasets contain meaningful data and some useful sub-image may be placed near boundary of the dataset, zero-padding is added to the boundary of the dataset at first. Then the dataset will be normalized and equalized. During training and testing, the sampling processing will filter the zero-valued pixel so only voxel that contain meaningful data will be fed into the network.
 
 ## Implementation
 
