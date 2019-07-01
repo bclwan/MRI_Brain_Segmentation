@@ -28,6 +28,24 @@ Training accuracy:
 Validation accuracy:
 ![Validation](../master/doc/images/train_val_acc.png)
 
+## Demo
+
+Source Image:
+
+![Training](../master/doc/images/MRI_src.png)
+
+Ground Truth:
+
+![Training](../master/doc/images/MRI_truth.png)
+
+Our Prediction:
+
+![Training](../master/doc/images/MRI_pred.png)
+
+Difference:
+
+![Training](../master/doc/images/MRI_diff.png)
+
 
 ## Reference
 
