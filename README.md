@@ -61,7 +61,7 @@ https://arxiv.org/abs/1502.02445
 
 [3] Identity Mappings in Deep Residual Networkss
 
-https://arxiv.org/abs/1603.05027 
+https://arxiv.org/abs/1603.05027
 
 [4] The Medical Image Computing and Computer Assisted Intervention Society
 http://www.miccai.org/
