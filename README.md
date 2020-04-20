@@ -1,4 +1,4 @@
-# MRI_Brain_Segmentation
+# MRI Brain Segmentation
 
 ## Introduction
 
